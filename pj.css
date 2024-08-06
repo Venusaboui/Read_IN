@@ -1,0 +1,155 @@
+.pj{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    width: 88%;
+    height: 100vh;
+}
+.left{
+    width: 30%;
+  
+    border-width: 10px;
+    height: 100%;
+    background-image: url(book2.jpg);
+}
+.lim{
+    margin-top:4.6cm;
+    background-image: url(book4.jpg);
+    width: 100%;
+    height: 5cm;
+    opacity: 90%;
+}
+.right{
+    width: 50%;
+    background-color: aliceblue;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+}
+.inri{
+    
+   height: 900px;
+   background-color: aliceblue;
+   border-radius: 5%;
+padding-top: 2cm; 
+}
+.rform{
+  
+    padding-left: 20px;
+   background-color: white;
+   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+   
+}
+.highlight {
+        color: #0080ff; 
+    }
+
+.highlight2 {
+        color: white; 
+    }
+
+/* HOME PAGE */
+
+.hp{
+    background-color: aliceblue;
+}
+
+.diiv{
+    margin-top: 3cm;
+    height: 8cm;
+    padding: 10px;
+}
+.up{
+    height:12cm;
+    display: flex;
+    justify-content: center;
+}
+.leftim{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 45%;
+}
+
+
+.boxup img{
+    height: 6cm;
+    transform: rotate(-20deg);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    position: relative;
+    left: 20%;
+    top: 25%;
+}
+
+
+.boxup:nth-child(1){
+    height: 18cm;
+}
+
+
+.first{
+    height: 10cm;    
+    background-color:white;
+    padding-bottom: 2cm;
+
+}
+.boxes{
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    margin: 15px;
+    height: 9cm;
+    width: 40%;
+}
+.box1{
+    background-color:rgb(227, 234, 240)
+}
+
+
+.box2{
+    background-color: rgb(219, 232, 243);
+}
+
+.box3{
+    background-color: rgb(207, 230, 250);
+}
+.box img{
+    height: 6cm;
+    transform: rotate(-40deg);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    position: relative;
+    left: 59%;
+    top: 15%;
+}
+.text-overlay {
+    width: 40%;
+    position: relative; /* Positionnement absolu pour le texte */
+    left: 20%;/* Position horizontale au centre */
+    bottom: 20%;
+    transform: translate(-50%, -50%); /* Centrer le texte */
+    background-color: rgba(0, 0, 0, 0.2); /* Fond semi-transparent pour le texte */
+    color: white; /* Couleur du texte */
+    padding: 5px; /* Espacement intérieur du texte */
+    text-align: center; /* Alignement central du texte */
+}
+
+.techbox{
+    height: 12cm;
+}
+
+.techbox img{
+    height: 8cm;
+    width: 60%;
+    margin: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+
+.second{
+    height: 9.5cm;    
+    background-color:white;
+    width: 100%;
+}
